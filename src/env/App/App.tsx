@@ -1,7 +1,7 @@
-import type {FC} from 'react';
+import type { FC } from "react";
 
-import {Counter} from '@/lib';
-import './index.css';
+import { Counter } from "@/lib";
+import "./index.css";
 
 const App: FC = () => {
     return (
