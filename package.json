@@ -1,6 +1,15 @@
 {
-  "name": "react-library-template",
+  "name": "google-maps-react",
   "homepage": "https://morewings.github.io/react-library-template/",
+  "author": {
+    "name": "Jacob Galati",
+    "email": "galati.jacob@gmail.com",
+    "url": "https://github.com/JacobGalati"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacobGalati/google-maps-react.git"
+  },
   "private": false,
   "version": "0.1.0",
   "type": "module",
@@ -19,17 +28,12 @@
   },
   "keywords": [
     "react",
-    "template",
-    "react-testing-library",
-    "testing-library",
-    "eslint",
-    "npm",
-    "rollup",
-    "stylelint",
-    "library",
-    "package",
-    "vite",
-    "css-modules",
+    "google",
+    "google maps",
+    "google-maps",
+    "googlemap",
+    "map",
+    "maps",
     "typescript"
   ],
   "description": "Missing React, typescript NPM library creation template",
@@ -56,6 +60,7 @@
     "react-dom": ">=18.2.0"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
